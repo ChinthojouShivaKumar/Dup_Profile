@@ -1,0 +1,35 @@
+
+@media screen and (max-width: 480px){
+    .Navvbar{
+        display: flex;
+        flex-direction: column;
+        width: 1500px;
+}
+}
+
+@media screen and (min-width: 480px) and (max-width: 995px){
+    .Navvbar{
+        display: block;
+        width: 2000px;
+        height: 70px;
+    }
+    .conta{
+        position: relative;
+        right: 250px;
+        font-size: large;
+        
+    }
+}
+
+@media screen and (min-width: 995px) and (max-width: 1480px){
+    .Navvbar{
+        width: 2000px;
+        
+    }
+    .conta{
+       
+        font-size: large;
+    }
+}
+
+

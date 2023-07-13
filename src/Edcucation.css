@@ -1,0 +1,274 @@
+.my_edu{
+  background-color: azure;
+  height: 850px;
+  
+}
+.h1{
+  text-align: center;
+  position: relative;
+  top: 30px;
+  color: black;
+  height: fit-content;
+  width: fit-content;
+
+ 
+}
+h6{
+  text-align: center;
+  position: relative;
+  top: 30px;
+  width: fit-content;
+}
+
+.grad{
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  height: 200px;
+  background-color: aliceblue;
+  position: relative;
+  top: 70px;
+  left: 250px;
+  border-radius: 10px;
+  text-align: start;
+  box-shadow: 3px 3px 8px 3px;
+}
+
+.h2 {
+  position: relative;
+  left: 60px;
+  top: 20px;
+  color: darkblue;
+  width: fit-content;
+}
+.p {
+  position: relative;
+  left: 60px;
+  top: 20px;
+  font-weight: 600;
+  width: fit-content;
+  
+}
+.titled{
+  width: fit-content;
+  position: relative;
+  left: 450px;
+  top: 20px;
+}
+.h3 {
+  position: relative;
+  left: 60px;
+  top: 20px;
+  color: blueviolet;
+  width: fit-content;
+}
+.schooling{
+   display: flex;
+  flex-direction: column;
+  width: 1000px;
+  height: 200px;
+  background-color: aliceblue;
+  position: relative;
+  top: 70px;
+  left: 250px;
+  border-radius: 10px;
+  text-align: start;
+  box-shadow: 3px 3px 8px 3px;
+}
+.Inter{
+   display: flex;
+  flex-direction: column;
+  width: 1000px;
+  height: 180px;
+  background-color: aliceblue;
+  position: relative;
+  top: 100px;
+  left: 250px;
+  border-radius: 10px;
+  text-align: start;
+  box-shadow: 3px 3px 8px 3px;
+}
+.schooling{
+  width: 1000px;
+  height: 180px;
+  background-color: aliceblue;
+  position: relative;
+  top: 130px;
+  left: 250px;
+  border-radius: 10px;
+  text-align: start;
+  box-shadow: 3px 3px 8px 3px;
+}
+.h1s{
+  text-align: center;
+  position: relative;
+  top: 30px;
+  left: 10px;
+  color: black;
+  height: fit-content;
+ 
+}
+
+@media screen and (max-width: 480px){
+  .my_edu{
+    display: flex;
+    flex-direction: column;
+    width: 1500px;
+    height: 1000px;
+    position: relative;
+    top: 360px;
+  }
+ .h1s{
+  text-align: center;
+  position: relative;
+  top: 50px;
+  left: 10px;
+  color: black;
+  height: fit-content;
+ 
+}
+h6{
+  text-align: center;
+  position: relative;
+  top: 50px;
+}
+.titled{
+  position: relative;
+  top: 40px;
+}
+.grad{
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  height: 200px;
+  background-color: aliceblue;
+  position: relative;
+  top: 70px;
+  left: 250px;
+  border-radius: 10px;
+  text-align: start;
+  box-shadow: 3px 3px 8px 3px;
+}
+.Inter{
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  height: 180px;
+  background-color: aliceblue;
+  position: relative;
+  top: 100px;
+  left: 250px;
+  border-radius: 10px;
+  text-align: start;
+  box-shadow: 3px 3px 8px 3px;
+}
+.schooling{
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  height: 180px;
+  background-color: aliceblue;
+  position: relative;
+  top: 130px;
+  left: 250px;
+  border-radius: 10px;
+  text-align: start;
+  box-shadow: 3px 3px 8px 3px;
+}
+.edu_detail{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 60px;
+}
+
+}
+
+@media screen and (min-width: 480px) and (max-width: 820px){
+  .my_edu{
+    display: flex;
+    flex-direction: column;
+    width: 2000px;
+    height: 1000px;
+    position: relative;
+    top: 210px;
+    
+  }
+  .titled{
+  position: relative;
+  top: 40px;
+  left: 450px;
+  width: fit-content;
+ 
+}
+  .h1s{
+  text-align: center;
+  position: relative;
+  top: 20px;
+  left: 10px;
+  color: black;
+  height: fit-content;
+  width: fit-content;
+}
+
+.edu_detail{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 60px;
+  left: 230px;
+  font-size: larger;
+  width: fit-content;
+}
+}
+@media screen and (min-width: 820px) and (max-width: 1480px){
+  .my_edu{
+    display: flex;
+    flex-direction: column;
+    width: 2000px;
+    height: 1000px;
+    position: relative;
+    top: 210px;
+    font-size: x-large;
+   
+    
+  }
+  .title{
+  position: relative;
+  top: 40px;
+  left: 450px;
+  width: fit-content;
+ 
+}
+h6{
+  font-size:x-large;
+}
+  .h1s{
+  text-align: center;
+  position: relative;
+  top: 20px;
+  left: 250px;
+  color: black;
+  height: fit-content;
+  width: fit-content;
+}
+
+.edu_detail{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 60px;
+  left: 230px;
+  font-size: larger;
+  width: fit-content;
+}
+.grad{
+  width: 1100px;
+}
+.schooling{
+  width: 1100px;
+}
+.Inter{
+  width: 1100px;
+}
+}
